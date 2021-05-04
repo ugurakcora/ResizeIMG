@@ -1,0 +1,29 @@
+{
+  "input": "assets/input",
+  "output": "assets/output",
+  "watch": true,
+  "openGUI": true,
+  "filters": [
+    {
+      "glob": [
+        "**/*.jpg",
+        "**/*.jpeg"
+      ],
+      "use": [
+        {
+          "name": "lepto.jpeg",
+          "quality": 1
+        }
+      ]
+    },
+    {
+      "glob": "**/*.png",
+      "use": [
+        {
+          "name": "lepto.png",
+          "quality": "70-80"
+        }
+      ]
+    }
+  ]
+}
